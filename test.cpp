@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cassert>
+#include <cstdint>
 #include "main.hpp"
 
 void test_first() {
@@ -27,4 +28,5 @@ int main() {
     test_first();
     test_second();
     test_third();
+    std::cout << "OK";
 }
