@@ -1,2 +1,2 @@
 start: test.cpp
-	c++ test.cpp
+	c++ -std=c++17 test.cpp
