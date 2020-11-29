@@ -80,6 +80,6 @@ std::string result(int64_t e, int64_t n, std::string s) {
             break;
         }
     }
-    std::reverse(ans_.begin(), ans_.end());
+    reverse(ans_.begin(), ans_.end());
     return ans_;
 }
