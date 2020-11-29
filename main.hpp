@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <algorithm>
 
 inline int64_t gcdex(int64_t a, int64_t b, int64_t& x, int64_t& y) {
     if (a == 0) {
