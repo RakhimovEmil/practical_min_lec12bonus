@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cassert>
 #include <cstdint>
+#include <cmath>
 #include "main.hpp"
 
 void test_first() {
