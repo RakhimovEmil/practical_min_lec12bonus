@@ -8,6 +8,6 @@ script:
     
 deploy:
   provider: script
-  script: make push
+  script: make deploy
   on:
     all_branches: true
