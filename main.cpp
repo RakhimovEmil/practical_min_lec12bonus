@@ -84,3 +84,12 @@ std::string result(int64_t e, int64_t n, std::string s) {
     reverse(ans_.begin(), ans_.end());
     return ans_;
 }
+
+int main() {
+    
+    int64_t e, n;
+    std::cin >> e >> n;
+    std::cout << (int64_t) invmod(e, phi(n));
+    
+    return 0;
+}
